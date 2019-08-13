@@ -1,0 +1,11 @@
+Dear {$client_name},
+
+Thanks for ordering {$service_product_name}, it's now available to download from your client area. Your license key is available in there too, but we've pasted it below for your offline records.
+
+{$ranger_license_key}
+
+Thank you for choosing {$company_name}, your business is greatly appreciated.
+
+If you have any questions or concerns, please do not hesitate to contact us.
+
+{$signature}
