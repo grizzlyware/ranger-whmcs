@@ -1,0 +1,13 @@
+{
+    "name": "grizzlyware/ranger-whmcs",
+    "type": "project",
+    "license": "GPL-3.0-only",
+    "authors": [
+        {
+            "name": "Grizzlyware Ltd",
+            "email": "contact@grizzlyware.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {}
+}
