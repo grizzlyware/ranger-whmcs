@@ -60,6 +60,10 @@ class License extends \Grizzlyware\Ranger\Client\License
 			{
 				$result->valid = false;
 			}
+			elseif($this->whmcsService->product->configoption5 && $context->getApplicationKey() !== $this->whmcsService->product->configoption5)
+			{
+				$result->valid = false;
+			}
 			else
 			{
 				$result->valid = true;

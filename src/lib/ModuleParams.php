@@ -51,6 +51,12 @@ class ModuleParams
 			[
 				'Type' => 'yesno',
 				'Description' => 'Allow the client to reissue the license themselves'
+			],
+
+			'Application key' =>
+			[
+				'Type' => 'text',
+				'Description' => '<br />This prevents licenses from being used for other applications. It keys a license to an application'
 			]
 		];
 

@@ -5,7 +5,6 @@ namespace ExampleRangerEnabledApp\Ranger;
 use Grizzlyware\Ranger\Client\Context;
 use Grizzlyware\Ranger\Client\Exceptions\RemoteServerFailureException;
 use Grizzlyware\Ranger\Client\License;
-use Grizzlyware\Ranger\Examples\Server\ClientConnection;
 
 final class ServerConnection extends \Grizzlyware\Ranger\Client\ServerConnection
 {
