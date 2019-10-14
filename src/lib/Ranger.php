@@ -106,7 +106,7 @@ class Ranger
 
 	public static function detectClientLicenseCallback()
 	{
-		if(!isset(getallheaders()["Ranger-Client"])) return;
+		if(!isset(\getallheaders()["Ranger-Client"])) return;
 
 		self::init();
 		self::handleLicenseCallback();
