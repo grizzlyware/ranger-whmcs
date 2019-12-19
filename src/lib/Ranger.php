@@ -29,7 +29,7 @@ class Ranger
 				// Add the license key to the invoice line
 				if($license->ranger_key)
 				{
-					$item->description = "{$license->ranger_key} - {$item->description}\\rNew line here";
+					$item->description = "{$license->ranger_key} - {$item->description}";
 					$item->save();
 				}
 			}
